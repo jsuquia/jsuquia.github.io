@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Familia Suquia</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+  <div id="backgroundImage"></div>
+  <div class="hide" id="backgroundImage1"></div>
+  <div class="show" id="backgroundImage2"></div>
+  <div class="ovarlay"></div>
+  <div class="infoText">
+    UNDER CONSTRUCTION
+    <span>FAMILIA SUQUIA</span>
+  </div>
+</body>
+
+</html>
+
+<script>
+backgroundCount = 0;
+currentFrame = 1;
+
+function restartTimer() {
+  timePrompt = setTimeout(function() {
+    changeImage();
+
+  }, 6000);
+}
+
+function changeImage() {
+  backgroundCount++;
+  imageUrl = "url('https://unsplash.it/1200/750/?random&" + backgroundCount + "')";
+
+  if (currentFrame == 1) {
+    currentName = "backgroundImage1";
+    hideName = "backgroundImage2";
+    currentFrame = 2;
+  } else {
+    currentName = "backgroundImage2";
+    hideName = "backgroundImage1";
+    currentFrame = 1;
+  }
+  document.getElementById(currentName).style.backgroundImage = imageUrl;
+  document.getElementById(hideName).className = 'hide';
+  document.getElementById(currentName).className = 'show';
+
+  restartTimer();
+}
+restartTimer();
+</script>
