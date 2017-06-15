@@ -27,14 +27,15 @@ h1 {
 }
 
 .center {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 581px;
-  height: 50%;
+  width: 560px;
+    height: 450px;
+   /* background-color: red;*/
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .btn {
