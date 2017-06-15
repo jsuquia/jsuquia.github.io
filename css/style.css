@@ -1,6 +1,5 @@
 html {
-  background-color: #10151B;
-  background: url('http://farm1.staticflickr.com/36/111023917_8de2b23011_o.jpg') no-repeat center center fixed;
+  background-image: url("../img/woodTexture.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,9 +26,8 @@ h1 {
 }
 
 .center {
-  width: 900px;
-    height: 500px;
-    background-color: red;
+  width: 1400px;
+    height: 400px;
     position: absolute;
     top:0;
     bottom: 0;
@@ -61,6 +59,12 @@ h1 {
   -webkit-transition: background .4s, color .4s;
   transition: background .4s, color .4s;
   cursor: pointer;
+  position: absolute;
+    top:50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .btn:hover {
