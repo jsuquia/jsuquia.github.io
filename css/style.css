@@ -165,6 +165,8 @@ input:focus{outline:none;}
 @media screen and (max-width:930px){
   .subTexts p {font-size:20px}
   .button{font-size:12px}
+    .content{max-width:95%; height:80%;margin:100px auto;}
+    .greet{font-size: 48px;}
 
 }
  
