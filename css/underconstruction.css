@@ -23,7 +23,7 @@ backgroundImage,
 #backgroundImage1,
 #backgroundImage2 {
   background-color: #555;
-  background-image: url('https://unsplash.it/1200/750/?random&0');
+  background-image: url('../img/1.jfif');
   background-position: center center;
   background-size: cover;
 }

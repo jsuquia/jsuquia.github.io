@@ -14,7 +14,7 @@
   <div class="show" id="backgroundImage2"></div>
   <div class="ovarlay"></div>
   <div class="infoText">
-    EN CONSTRUCCION
+    BAJO CONSTRUCCION
     <span>FAMILIA SUQUIA</span>
   </div>
 </body>
@@ -22,7 +22,7 @@
 </html>
 
 <script>
-backgroundCount = 0;
+backgroundCount = 1;
 currentFrame = 1;
 
 function restartTimer() {
@@ -32,9 +32,8 @@ function restartTimer() {
   }, 6000);
 }
 
-function changeImage() {
-  backgroundCount++;
-  imageUrl = "url('https://unsplash.it/1200/750/?random&" + backgroundCount + "')";
+function changeImage() {  
+  imageUrl = "url('img/" + backgroundCount + ".jfif')";
 
   if (currentFrame == 1) {
     currentName = "backgroundImage1";
@@ -50,6 +49,12 @@ function changeImage() {
   document.getElementById(currentName).className = 'show';
 
   restartTimer();
+  if(backgroundCount == 10)
+  {
+	backgroundCount = 0;
+  }
+  
+  backgroundCount++;
 }
 restartTimer();
 </script>
