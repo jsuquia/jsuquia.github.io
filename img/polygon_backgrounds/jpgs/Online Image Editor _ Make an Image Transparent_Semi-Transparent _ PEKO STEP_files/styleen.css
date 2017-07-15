@@ -1,0 +1,323 @@
+* {padding:0px;margin:0px;}
+img {border:none;vertical-align:text-bottom;}
+a img{border:none;}
+html {height:100%;text-align:center;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+
+.arrowdbox1{background-image:url("http://www.peko-step.com/image/arrow01.jpg");background-repeat:no-repeat;background-position:left center;padding:3px 0px 3px 26px;}
+.arrowdbox2{background-image:url("http://www.peko-step.com/image/arrow02.jpg");background-repeat:no-repeat;background-position:left center;padding:3px 0px 3px 26px;}
+.arrowdbox4{background-image:url("http://www.peko-step.com/image/arrow04.jpg");background-repeat:no-repeat;background-position:left center;padding:3px 0px 3px 26px;}
+.text_headouter{border-bottom:2px #bd8d31 dotted;margin-bottom:10px;}
+.text_headinner{border-left:12px #bd8d31 solid;margin:2px 4px;padding:0px 6px;font-size:115%;font-weight:normal;text-shadow:1px 0 1px #522800;}
+.text_markbox{border:1px solid #b9b9b9;background-color:#f0e0c7;padding:10px;margin:10px 3px;line-height:2.5em;}
+.text_markboxmini{border:1px solid #b9b9b9;background-color:#f0e0c7;padding:10px;margin:10px 3px;line-height:1.5em;}
+.expboxouter{border:1px #b9b9b9 solid;text-align:left;margin:10px 3px;}
+.expboxinner{border-bottom:1px #b9b9b9 solid;padding:5px;}
+.expboxtex{padding:10px;}
+/* ---------- tag ------------ */
+body { 
+	background-image:url("http://www.peko-step.com/image/siteback1");
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#EAD493;
+	padding:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-size:16px;
+}
+h1{color: #522800;font-size:0.70em;font-weight:bold;margin:4px 16px 0px;padding:0px;}
+h1 a{text-decoration:none; color:#0061FF;}
+h2{font-size:1em;font-weight:normal;}
+h3{font-size:115%;font-weight:normal;text-shadow:1px 0 1px #522800;}
+strong{color: #6020df;}
+em{font-style:normal;font-weight:bold;}
+.floatclear{clear:both;height:0px;font-size:0;overflow:hidden;zoom:1;}
+.smartbox{display:none;}
+/* ---------- bone ------------ */
+#resbaseouter{min-width:320px;max-width:1280px;padding:0px;margin:0 auto;}
+#resbase{position:relative;margin:0px 0px;text-align:center;}
+#rescentouter{width:100%;}
+#rescentinner{text-align:center;}
+#rescontentouter{width:100%;}
+#rescontentinner{text-align:center;}
+#resleft{position:relative;display:none;}
+#resright{padding-top:20px;position:relative;clear:both;}
+#flashcontentouter{width:100%;}
+#flashcontentinner{text-align:center;overflow:hidden;}
+#flashleft{position:relative;display:none;}
+/* ---------- comms ------------ */
+#incomtop{width:100%;margin:15px 0px 15px;text-align:center;}
+#comtop{width:320px;height:100px;margin:0px auto;text-align:center;overflow: hidden;}
+#comright{width:304px;height:254px;margin:0px auto;text-align:center;overflow: hidden;}
+#midcom_outer{text-align:center;overflow: hidden;padding-bottom:4px;}
+#midcom{width:320px;height:100px;margin:0px auto;text-align:center;overflow: hidden;}
+#midcomsq{width:304px;height:254px;margin:0px auto;text-align:center;overflow: hidden;}
+#midcomsq2{width:320px;height:100px;margin:0px auto;text-align:center;overflow: hidden;}
+#flashmidcom{width:320px;height:100px;margin:0px auto;text-align:center;overflow: hidden;}
+#midcomfix{width:320px;height:100px;margin:0px auto;text-align:center;overflow: hidden;}
+/* ---------- header ------------ */
+#banner{margin-bottom:20px;}
+#bannerouter{position:relative;margin-bottom:10px;overflow:hidden;}
+#innerbanner{
+	float:left;
+	text-decoration:none;
+	text-align:right;
+	display:block;
+	overflow:hidden;
+	background-image:url("http://www.peko-step.com/image/sitetitle4.png");
+	background-repeat: no-repeat;
+	width:140px;
+	height:40px;
+	background-position: 4px 0px;
+	background-size: 140px 100px;
+}
+#sitewrd{text-align:right;position:absolute;right:0px;bottom:0px;display:none;}
+#headnavouter{border-radius: 6px 6px 6px 6px;background-color:#8c5d31;padding:4px 8px;font-size:16px;position:relative;overflow:hidden;box-shadow: 0px 0px 10px rgba(82,40,0,0.8);}
+#headnav{list-style-type: none;}
+.headnaviline{float:left;width:75px;text-align:center;font-size:0.70em;}
+.headnavinnerbox{display:block;margin:0px 1px;color:#ffffee;text-decoration:none;overflow:hidden;text-align:center;padding:12px 0px;}
+.menuiconbase{
+	overflow:hidden;
+	background-image:url("http://www.peko-step.com/image/sitetitle4.png");
+	background-repeat: no-repeat;
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	background-size: 140px 100px;
+	display:inline-block;
+	/display:inline;	/*-IE7-*/
+	/zoom: 1;			/*-IE7-*/
+}
+.menuicon1{background-position: -2px -42px;}
+.menuicon2{background-position: -22px -42px;}
+.menuicon3{background-position: -42px -42px;}
+.menuicon4{background-position: -62px -42px;}
+/* ---------- side bar ------------ */
+.sidebox{border-radius: 6px 6px 6px 6px;box-shadow: 0px 0px 8px rgba(170,133,33,0.6);text-align:left;color: #522800;background-color:#F8F0D7;overflow: hidden;position:relative;font-size:12px;}
+.side_headline{ font-size:1.1em;background-color:#8c5d31;text-shadow:1px 0 1px #522800;padding:4px 6px 2px 6px;text-align:left;color:#ffffee;line-height:1.4;overflow:hidden;zoom:1;border-width:0px 0px 1px 12px;border-color:#522800;border-style:solid;}
+ul.sidelist{margin:3px 2px 3px 21px;padding:0px;}
+ul.sidelist li{padding:8px 3px 8px 0px;}
+ul.sidelist_n{list-style-type: none; padding:0px;margin:0px 0px 0px 0px;}
+.sidelistitem_n1{background-color:#F8F0D7;padding:2px 6px 4px 2px;}
+.sidelistitem_n2{background-color:#F0E0C7;padding:2px 6px 4px 2px;}
+.sidelistitemin{border-left:8px #bd8d31 solid;padding-left:4px;}
+.sidenopad{text-align: center;padding:15px 0px 15px 0px;overflow: hidden;}
+.sideqrin{padding:10px;text-align:center;}
+.sidelist_other{padding:4px 8px;text-align:right;}
+.facebookpageouter{margin-top:50px;}
+.sideinicon_n1{background-color:#F8F0D7;padding:2px 4px 2px 32px;}
+.sideinicon_n2{background-color:#F0E0C7;padding:2px 4px 2px 32px;}
+.sideicons{
+	overflow:hidden;
+	background-image:url("http://www.peko-step.com/image/siteicons01.png");
+	background-repeat: no-repeat;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	background-size: 480px 24px;
+	display:inline-block;
+	margin-left:-28px;
+	margin-right:4px;
+	/display:inline;	/*-IE7-*/
+	/zoom: 1;			/*-IE7-*/
+}
+.sideicon0{background-position: 0px 0px;}
+.sideicon1{background-position: -24px 0px;}
+.sideicon2{background-position: -48px 0px;}
+.sideicon3{background-position: -72px 0px;}
+.sideicon4{background-position: -96px 0px;}
+.sideicon5{background-position: -120px 0px;}
+.sideicon6{background-position: -144px 0px;}
+.sideicon7{background-position: -168px 0px;}
+.sideicon8{background-position: -192px 0px;}
+.sideicon9{background-position: -216px 0px;}
+.sideicon10{background-position: -240px 0px;}
+.sideicon11{background-position: -264px 0px;}
+.sideicon12{background-position: -288px 0px;}
+.sideicon13{background-position: -312px 0px;}
+.sideicon14{background-position: -336px 0px;}
+.sideicon15{background-position: -360px 0px;}
+/* ---------- footer ------------ */
+#footer{margin-top:40px;text-align:center;color:#FFFFEE;border-radius: 6px 6px 0px 0px;background-color:#8c5d31;padding:10px 10px 10px;position:relative;overflow:hidden;box-shadow: 0px 0px 10px rgba(82,40,0,0.8);clear: both;}
+#footer a:link{color:#FFFFEE;}
+#footer a:visited{color:#EAD493;}
+#footermenu{margin-top:5px;font-size:0.80em;text-shadow:1px 0 1px #522800;}
+#copyright{margin-top:10px;font-size:0.75em;text-align:center;}
+#siteover{text-align:center;margin:0px auto 0px;font-size:0px;line-height:0;vertical-align:top;}
+/* ---------- main ------------ */
+.centbrdnobd{text-align:left;padding:12px 4px 12px;margin-bottom:20px;color:#ffffee;background-color:#AA8521;box-shadow: 0px 0px 5px rgba(82,40,0,0.8);text-shadow:1px 0 1px #522800;border-radius: 6px 6px 6px 6px;font-size:0.75em;}
+.centbrdnobd a{color:#ffffee;}
+.main_outer{border-radius: 6px 6px 6px 6px;box-shadow: 0px 0px 8px rgba(255,255,238,0.8);color:#522800;background-color:#F8F0D7;text-align:left;overflow: hidden;position:relative; font-size:13px;zoom:1;}
+.main_head{background-color:#FFDFAC;border-width:0px 0px 1px 12px;border-color:#ffaa00;border-style:solid;padding:8px 6px 6px 6px;text-align:left;color:#522800;font-size:1.05em;}
+.image_head{padding:5px 5px;margin: 5px 10px 0px 10px;border-bottom: 1px solid #b9b9b9;position:relative;font-size:115%;font-weight:normal;text-shadow:1px 0 1px #522800;}
+.titleheaderimg{
+	overflow:hidden;
+	background-image:url("http://www.peko-step.com/image/sitetitle4.png");
+	background-repeat: no-repeat;
+	vertical-align:bottom;
+	width:32px;
+	height:32px;
+	background-size: 280px 200px;
+	background-position: -204px -124px;
+	display:inline-block;
+	margin-right:5px;
+	/display:inline;	/*-IE7-*/
+	/zoom: 1;			/*-IE7-*/
+}
+.main_intext{color:#522800;padding:10px 4px;background-color:#F8F0D7;overflow:hidden;zoom:1;}
+.main_intext ul{padding-left:20px;}
+.main_inimglist{color:#522800;padding:10px 4px;background-color:#F8F0D7;overflow:hidden;zoom:1;}
+.main_inimglist_L{float:left;width:40px;text-align:center;}
+.main_inimglist_L img{width:40px;height:40px;}
+.main_inimglist_L2{float:left;width:48px;text-align:center;}
+.main_inimglist_L2 img{width:48px;height:48px;}
+.main_inimglist_R{margin-left:45px;}
+.main_inimglist_R2{margin-left:58px;}
+.main_inimglist_T{border-bottom:2px #DCB43B dotted;}
+.main_inimglist_inT{border-left:12px #bd8d31 solid;margin:2px 4px;padding:0px 6px;font-size:1.05em;}
+.main_inimglist_pad{border-top:2px #EBD592 dotted;padding:4px;}
+.main_inimglist_spl{margin-top:5px;margin-bottom:10px;border-top:1px #D2B48C solid;border-bottom:2px #ffffee solid;height:0px;font-size:0px;overflow:hidden;clear: both;}
+.main_incmslist_L{float:left;width:120px;}
+.main_incmslist_R{margin-left:125px;}
+.righttextbox{text-align:right;margin-top:4px;}
+.imgborder{border:1px #8c5d31 solid;}
+.imgborderspace{border:1px #8c5d31 solid;margin-top:20px;margin-bottom:8px;}
+/* ---------- sns ------------ */
+.snsnav{list-style-type: none;}
+.snsnaviline{float:left;width:33%;text-align:center;}
+.snsnavilineend {float:left;width:34%;text-align:center;}
+.snsnavilinehalf{float:left;width:50%;text-align:center;}
+.snsnavinnerbox{display:block;margin:0px 1px;color:#ffffee;text-decoration:none;overflow:hidden;text-align:center;padding:15px 0px;font-size:0.7em;}
+.snsbutton1{background-color:#55acee;-moz-transition: background-color 0.5s ease;-webkit-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;}
+.snsbutton1:hover{background-color:#99CEF4;}
+.snsbutton2{background-color:#3b5998;-moz-transition: background-color 0.5s ease;-webkit-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;}
+.snsbutton2:hover{background-color:#5D7EC0;}
+.snsbutton3{background-color:#008fde;-moz-transition: background-color 0.5s ease;-webkit-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;}
+.snsbutton3:hover{background-color:#28B4FF;}
+.snsiconbase{
+	overflow:hidden;
+	background-image:url("http://www.peko-step.com/image/sitetitle4.png");
+	background-repeat: no-repeat;
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	background-size: 140px 100px;
+	display:inline-block;
+	/display:inline;	/*-IE7-*/
+	/zoom: 1;			/*-IE7-*/
+}
+.snsicon1{background-position: -2px -82px;}
+.snsicon2{background-position: -22px -82px;}
+.snsicon3{background-position: -42px -82px;}
+.snsnumbox1{display:none;}
+.snsnumbox2{display:none;}
+.snsnumbox3{display:none;}
+/* ------------------------------------------------------ */
+@media screen and (min-width:505px){
+
+/* ---------- bone ------------ */
+#rescontentouter{float:right;margin-left:-165px;}
+#rescontentinner{padding-left:165px;}
+#resleft{float:left;width:160px;display:block;}
+/* ---------- comms ------------ */
+#comtop{width:468px;height:60px;}
+#flashmidcom{width:468px;height:60px;}
+/* ---------- main ------------ */
+.centbrdnobd{margin-bottom:40px;padding:6px 10px 6px;font-size:0.75em;}
+.main_inimglist_L{width:100px;}
+.main_inimglist_L img{width:80px;height:80px;}
+.main_inimglist_R{margin-left:105px;}
+
+}
+/* ------------------------------------------------------ */
+@media screen and (min-width:768px){
+
+/* ---------- bone ------------ */
+#resbase{margin:0px 5px;}
+#rescentouter{float:left;margin-right:-165px;}
+#rescentinner{padding-right:165px;}
+#resright{padding-top:0px;clear:none;float:right;width:160px;display:block;}
+/* ---------- comms ------------ */
+#comtop{width:728px;height:90px;}
+#comright{width:160px;height:600px;}
+#midcomsq2{width:340px;height:284px;margin:0px auto;text-align:center;overflow: hidden;}
+#flashmidcom{width:728px;height:90px;}
+/* ---------- header ------------ */
+#sitewrd{display:block;}
+#innerbanner{width:280px;height:80px;background-position: 10px 0px;background-size: 280px 200px;}
+.headnaviline{font-size:0.85em;width:150px;}
+.headnavinnerbox{padding:0px;}
+.menuiconbase{vertical-align:bottom;width:32px;height:32px;background-size: 280px 200px;}
+.menuicon1{background-position: -4px -84px;}
+.menuicon2{background-position: -44px -84px;}
+.menuicon3{background-position: -84px -84px;}
+.menuicon4{background-position: -124px -84px;}
+/* ---------- side bar ------------ */
+.sidebox{font-size:12px;}
+ul.sidelist li{padding:0px 3px 3px 0px;}
+.sidelistitem_n1{padding:2px 6px 4px 2px;}
+.sidelistitem_n2{padding:2px 6px 4px 2px;}
+/* ---------- main ------------ */
+.main_outer{font-size:13px;}
+.main_intext{padding:20px 10px 30px;}
+.main_inimglist{padding:10px;}
+/* ---------- sns ------------ */
+.snsnavinnerbox{padding:8px 0px;font-size:0.85em;}
+.snsiconbase{vertical-align:bottom;width:24px;height:24px;background-size: 210px 150px;}
+.snsicon1{background-position: -3px -123px;}
+.snsicon2{background-position: -33px -123px;}
+.snsicon3{background-position: -63px -123px;}
+.snsnumbox1{display:inline;}
+.snsnumbox2{display:inline;}
+.snsnumbox3{display:inline;}
+
+}
+/* ------------------------------------------------------ */
+@media screen and (min-width:1024px){
+
+/* ---------- bone ------------ */
+#rescentouter {float:left;margin-right:-310px;}
+#rescentinner {padding-right:310px;}
+#rescontentouter {float:right;margin-left:-190px;}
+#rescontentinner {padding-left:190px;}
+#resleft {float:left;width:180px;display:block;}
+#resright {float:right;width:300px;display:block;}
+#flashcontentouter  {float:right;margin-left:-190px;}
+#flashcontentinner {padding-left:190px;}
+#flashleft {float:left;width:180px;display:block;}
+/* ---------- comms ------------ */
+#comtop{width:970px;height:90px;}
+#comright{width:300px;height:600px;}
+#midcom{width:468px;height:60px;}
+
+}
+/* ------------------------------------------------------ */
+@media screen and (min-width:1200px){
+
+#resbase {margin:0px 30px;}
+
+}
+/* ------------------------------------------------------ */
+.mt1{margin-top:10px;}
+.mt1f{margin-top:15px;}
+.mt2{margin-top:20px;}
+.mt3{margin-top:30px;}
+.mt4{margin-top:40px;}
+.mt5{margin-top:50px;}
+.mt6{margin-top:60px;}
+.mt7{margin-top:70px;}
+.mt8{margin-top:80px;}
+.mt9{margin-top:90px;}
+.mb1{margin-bottom:10px;}
+.mb1f{margin-bottom:15px;}
+.mb2{margin-bottom:20px;}
+.mb3{margin-bottom:30px;}
+.mb4{margin-bottom:40px;}
+.mb5{margin-bottom:50px;}
+.mb6{margin-bottom:60px;}
+.mb7{margin-bottom:70px;}
+.mb8{margin-bottom:80px;}
+.mb9{margin-bottom:90px;}
+
