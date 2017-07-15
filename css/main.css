@@ -90,7 +90,7 @@ a:hover
 {
     grid-column: 1;
     grid-row: 2;
-     background:url('/img/menorca.jpg')no-repeat;
+     background:url('/img/menorca%20entera.png')no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

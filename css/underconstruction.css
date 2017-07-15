@@ -30,7 +30,7 @@ backgroundImage,
 #backgroundImage1,
 #backgroundImage2 {
   background-color: #555;
-  background-image: url('../img/1.webp');
+  background-image: url('../img/1.jpg');
   background-position: center center;
   background-size: cover;
 }
