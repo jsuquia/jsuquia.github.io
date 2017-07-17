@@ -23,9 +23,9 @@
   </div>
   
   <div class="form">
-    <form action="main.html" class="sub">
-      <button class="button">Entra</button>
-    </form>
+    <div class="sub">
+      <button class="button" onClick="passWord()">Entra</button>
+    </div>
   </div>
   
   <div class="social">
@@ -41,31 +41,47 @@
 </div>
 
 <script>
-window.addEventListener('load',function(){
-  var welcome = document.querySelector('.greet'),
-      subtext = document.querySelector('.subTexts'),
-      form    = document.querySelector('.sub'),
-      follow  = document.querySelector('.followUs'),
-      social  = document.querySelectorAll('.socialIcon'),
-      delay = 1000; 
-  
-  
-  setTimeout(function(){welcome.style.top='0';},delay);
-  setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
-  setTimeout(function(){form.style.opacity='1';},delay*4);
-  setTimeout(function(){follow.style.bottom='0%';},delay*5);
-  setTimeout(
-    function(){
-      social[0].style.marginTop='0px';
-      social[1].style.marginTop='0px';
-      social[2].style.marginTop='0px';
-    },delay*6
-  ); 
-   
-});
-  
-  
+            window.addEventListener('load',function(){
+              var welcome = document.querySelector('.greet'),
+                  subtext = document.querySelector('.subTexts'),
+                  form    = document.querySelector('.sub'),
+                  follow  = document.querySelector('.followUs'),
+                  social  = document.querySelectorAll('.socialIcon'),
+                  delay = 1000; 
 
+
+              setTimeout(function(){welcome.style.top='0';},delay);
+              setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
+              setTimeout(function(){form.style.opacity='1';},delay*4);
+              setTimeout(function(){follow.style.bottom='0%';},delay*5);
+              setTimeout(
+                function(){
+                  social[0].style.marginTop='0px';
+                  social[1].style.marginTop='0px';
+                  social[2].style.marginTop='0px';
+                },delay*6
+              ); 
+
+            });
+    
+            function passWord() {
+            var testV = 1;
+            var pass1 = prompt('Please Enter Your Password',' ');
+            while (testV < 3) {
+            if (!pass1) 
+            history.go(-1);
+            if (pass1.toLowerCase() == "vamonos") {
+            window.open('main.html','_self');
+            break;
+            } 
+            testV+=1;
+            var pass1 = 
+            prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+            }
+            if (pass1.toLowerCase()!="password" & testV ==3) 
+            history.go(-1);
+            return " ";
+            }
 
 </script>
 </body>

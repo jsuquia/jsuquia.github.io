@@ -32,12 +32,51 @@ section {
 
 /* the important styles */
 
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
 
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
 
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
 
 
 
 /*  this is the unimportant CSS used just to layout the content  */
+
+
 
 
 
@@ -52,13 +91,13 @@ header {
 
 header h1 {
   margin:0;
-    font-size: 100px;
-    margin-top: 50px;
+    font-size: 125px;
+    margin-top: 100px;
 }
 header h3 {
   margin:0;
   color: #56dcee ;
-    font-size: 50px;
+    font-size: 75px;
     margin-top: 50px;
 }
 
@@ -118,4 +157,117 @@ p {
 p a {
   color:#14b5d1;
   text-decoration:none;
+}
+
+/* Indice */
+
+li {
+  line-height: 3.2rem;
+  margin-bottom: 3.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+article,
+.toc {
+  position: relative;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/*== Table of contents == */
+
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.toc {
+  width: 50%;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.toc ol>li:before,
+.chapter {
+  position: relative;
+  z-index: 2;
+}
+
+.toc {
+  padding: 4.8rem;
+}
+
+.toc ol {
+  position: relative;
+  counter-reset: item;
+}
+
+.toc ol>li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  width: 2.4rem;
+  padding-right: .8rem;
+}
+
+.toc ol li li:before {
+  content: counters(item, ".") " ";
+}
+
+.toc li {
+  width: 100%;
+  display: table;
+  counter-increment: item;
+  text-transform: uppercase;
+  margin-bottom: .8rem;
+}
+
+.toc li li {
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.chapter {
+  display: inline-block;
+  padding-right: .8rem;
+}
+
+.toc-page {
+  float: right;
+}
+
+.toc li .toc-page:before {
+  position: absolute;
+  /* width: 100%; */
+  right: 4rem;
+  left: 0;
+  margin-top: 1.8rem;
+  content: "";
+  display: block;
+}
+
+.toc li>a {
+  display: inline-block;
+  width: 100%;
+}
+
+.toc li a:hover span {
+  font-weight: 600;
+}
+
+.toc li a:hover .toc-page:before {
+  border-bottom-width: 2px;
+}
+
+
+/*=== Colors === */
+
+.toc,
+.toc ol>li:before,
+.chapter {
+  background: #eee;
 }
